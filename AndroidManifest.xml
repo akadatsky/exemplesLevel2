@@ -18,5 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+                android:name=".activity.ColorSelectActivity"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activity.SearchGifActivity"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                android:screenOrientation="portrait" />
+
     </application>
+
 </manifest>
